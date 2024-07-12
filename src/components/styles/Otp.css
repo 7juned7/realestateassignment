@@ -1,0 +1,27 @@
+
+.otp_container{
+  
+    padding: 2rem .5rem 6rem;
+}
+
+.label{
+    display: flex;
+    justify-content: space-between;
+}
+.change__otp{
+    color: hsla(213, 60%, 18%, 1);
+    border-bottom: 1px solid hsla(213, 60%, 18%, 1);
+}
+.resend__otp{
+    color: hsla(213, 60%, 18%, 1);
+    text-align: right;
+}
+
+@media only screen and (max-width: 900px){
+    .otp_container {
+    
+            padding: 2rem .5rem 6rem;
+            
+            
+        }
+}

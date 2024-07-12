@@ -1,0 +1,18 @@
+.confirmationbtn{
+   background-color: hsla(213, 60%, 18%, 1);
+   color: white;
+}
+.ConfirmationPage{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    padding: 4rem;
+}
+.ConfirmationPage div{
+    display: flex;
+    gap: 2rem;
+   
+}
+.confirmationbtn{
+    padding: .7rem 1.2rem ;
+}
