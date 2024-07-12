@@ -1,3 +1,6 @@
+/* Utility styles */
+
+
 *{
   margin: 0;
   padding: 0;
@@ -43,7 +46,19 @@ color: white;
 .width{
   width: 100%;
 }
+#owner,
+#builder {
+  width: 20px;
+  margin-right: 1rem;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
 
+
+}
 
 
 .App {

@@ -48,7 +48,7 @@ display: none;
         font-weight: 600;
         padding-top: 2rem;
 }
-
+/* ------resposiveStyle for tablet and mobile ---- */
 
 @media only screen and (max-width: 900px) {
     .header {

@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import "../components/styles/ConfirmationPage.css"
 import PageContext from '../Context/PageContext';
 const ConfirmationPage = () => {
-    const { formPage, setFormPage } = useContext(PageContext)
+    const {  setFormPage } = useContext(PageContext)
     let Navigate = useNavigate()
     const handleClick = () => {
         Navigate("/preview");

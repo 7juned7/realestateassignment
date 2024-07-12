@@ -1,3 +1,5 @@
+//  features and FeaturesAmenities form
+
 import React, { useContext } from 'react'
 import PageContext from '../../Context/PageContext';
 import post from "../../Images/Post.svg"

@@ -1,3 +1,7 @@
+/* all styles related to listing form are here */
+
+
+
 /* ------------header------------ */
 .propformpage{
     position: absolute;
@@ -185,7 +189,7 @@ flex-direction: column;
     height: 400px;
     
 }
-
+/* ------resposiveStyle for tablet and mobile ---- */
 @media only screen and (max-width: 600px){
    
 .listproperty__header__nav {

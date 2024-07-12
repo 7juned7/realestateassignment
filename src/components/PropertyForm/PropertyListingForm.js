@@ -1,8 +1,11 @@
+// property listing main form page 
+
+
 import React, { useContext } from 'react'
 import PageContext from '../../Context/PageContext'
 
 import FormFooter from '../Forms/FormFooter'
-import Header from '../Header'
+
 
 import FeaturesAmenities from './FeaturesAmenities'
 import LocationForm from './LocationForm'

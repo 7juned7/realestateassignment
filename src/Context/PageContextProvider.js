@@ -39,7 +39,9 @@ export const PageContextProvider = ({ children }) => {
     const [bhkType, setBhkType] = useState("");
     const [balcony, setBalcony] = useState("");
     const [residentalType, setResidentalType] = useState([])
+    const [formPage, setFormPage] = useState(0)
 
+    // -------form-features---handlingFunctions------
     const handleChange = (e) => {
         const { name, value } = e.target;
         setValues({ ...values, [name]: value })
@@ -152,9 +154,13 @@ export const PageContextProvider = ({ children }) => {
         }
 
     }
-    console.log(values.timePeriod)
+    // -------form-features---handlingFunctions------
 
-    const [formPage, setFormPage] = useState(0)
+
+
+
+
+    // -------form-validations------------
     const handleNext = () => {
         if (formPage === 0) {
 
