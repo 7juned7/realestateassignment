@@ -198,8 +198,9 @@ export const PageContextProvider = ({ children }) => {
             }
         }
         if (formPage === 6) {
-            setFormPage((formPage + 1))
+            setFormPage((formPage + 1));
         }
+
 
 
 
